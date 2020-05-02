@@ -1,0 +1,66 @@
+h1 {
+	font-family: "Bradley Hand";
+	font-size: 70px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+table {
+	text-align: center;
+	background-color: #FFFFFF;
+	font-family: Optima;
+	overflow: hidden;
+	opacity: 0.75;
+}
+
+/* Style the links inside the navigation bar */
+table a {
+	float: left;
+	color: #000000;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+table a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+table a.active {
+	background-color: #af8387;
+	color: white;
+}
+
+h2 {
+	font-family: Optima;
+	font-size: 30px;
+	text-align: center;
+	color: #000000;
+	background-color: #FFFFFF;
+	display: block;
+	opacity: 0.75;
+}
+
+section {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 550px;
+	height: 350px;
+	font-family: Optima;
+	text-align: center;
+	background-color: #FFFFFF;
+	display: block;
+}
+
+
+
+footer{
+	font-style: italic;
+	font-size: 16px;
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #000000;
+}

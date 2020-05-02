@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>K's Boba Shop</title> 
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+	<link href="jquery.bxslider.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="js12/jquery.bxslider.min.js"></script>
+	<script src="gallery.js"></script>
+	
+    
+<!--Title-->
+<h1>K's Boba Shop</h1>
+
+<style>
+	body {
+	  background-image: url('pink.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: fixed; 
+  	  background-size: cover;
+	}
+	</style>
+
+<!--Table for top navigation bar-->
+<table align="center"
+	border="1"
+	width="65%"
+	cellpadding="2"
+	cellspacing="1">
+		<tr align="center">
+
+			<td> <a href="bobahome.html">Home</a></td>
+			<td> <a href="bobateas.html">Boba Teas</td>
+			<td> <a href="snackmenu.html">Snack Menu</td>
+			<td> <a href="contact.html">Contact</td>	
+			<td> <a href="gallery.html"class="active">Gallery</td>	
+			<td> <a href="career.html">Career</td>
+		</tr>
+	
+</table>
+
+<main>
+	<p>
+	<!--Import images for slideshow-->
+<ul id="slider">
+	<li><img src="slideshow/strawberry.jpg" alt="" title="Strawberry Boba"></li>
+	<li><img src="slideshow/chocolate.jpg" alt="" title="Chocolate Boba"></li>
+	<li><img src="slideshow/hotcheetos.jpg" alt="" title="Cheese Fries With Hot Cheetos"></li>
+	<li><img src="slideshow/shrimp.jpg" alt="" title="Popcorn Shrimp"></li>
+	<li><img src="slideshow/inside.jpg" alt="" title="Inside our shop"></li>
+	<li><img src="slideshow/greentea.jpg" alt="" title="Green Tea Boba"></li>
+</ul>
+<p id="pager"></p>
+</p>
+
+</head>	
+
+<!--Upload personal images-->
+<section>
+<body>
+	<h2>Upload your picture to be featured on our site!</h2>
+	<div class="main">
+		<hr>
+		<form id="uploadimage" action="" method="post" enctype="multipart/form-data">
+		<div id="image_preview"><img id="previewing" src="noimage.png" /></div>
+		<hr id="line">
+		<div id="selectImage">
+		<input type="file" name="file" id="file" required />
+		<input type="submit" value="Upload" class="submit"onClick="window.location.reload()">
+		</div>
+		</form>
+		</div>
+		<div id="message"></div>
+
+
+	</body>
+
+</main>
+</section>
+
+<footer>
+	<p>
+	© 2020 K's Family
+	<p>
+	<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+	<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+	</p>
+</p>
+</footer>
+</html>

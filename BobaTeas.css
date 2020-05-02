@@ -1,0 +1,101 @@
+
+body {
+}
+
+h1 {
+	font-family: "Bradley Hand";
+	font-size: 70px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+table {
+	text-align: center;
+	background-color: #FFFFFF;
+	font-family: Optima;
+	overflow: hidden;
+	opacity: 0.75;
+}
+/* Style the links inside the navigation bar */
+table a {
+	float: left;
+	color: #000000;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+table a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+table a.active {
+	background-color: #AF8387;
+	color: white;
+}
+
+h2{
+	font-size: 40px ;
+	font-family: Optima;
+	text-align: center;
+	background-color: #FFFFFF;
+	
+}
+
+section {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	height: 1300px;
+	font-family: Optima;
+	text-align: center;
+	background-color: #FFFFFF;
+	opacity: 0.95;
+}
+
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  /*Amount of pictures of each row & how much of the picture is displayed*/
+  .row {
+	column-count: 3 ;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+  }
+
+  .row img{
+	  padding: 10%; /*Spacing between the pictures and the next column*/
+  }
+
+  /*Image captions below*/
+  .caption {
+	display: block;
+	width: 100%;
+	text-align: center;
+  }
+
+ section img {
+	object-fit: cover;
+	width:300px;
+	height:300px;
+	border-radius: 30%; /*Round edges of images*/
+	}
+
+	footer{
+		font-style: italic;
+		font-size: 16px;
+		text-align: center;
+		background-color: #FFFFFF;
+		color: #000000;
+	}
+	
+
