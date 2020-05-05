@@ -1,4 +1,8 @@
 # BobaShop
-The purpose of this project was to design and develop a website for a real client that we found. My client is a young entrepreneur who is planning to open up her own boba shop in the near future. I wanted my website to have interactivity for the customers to overall enhance the user exeprience.
+The purpose of this project was to design and develop a website for a real client that we found. My client is a young entrepreneur who is planning to open up her own boba shop in the near future. I wanted my website to have interactivity for the customers to overall enhance the user exeprience. The images below are screenshots of the site. The menus shows pictures of each item of each item. The contact, gallery, and career page are all interactive where users able to send messages, post pictures, and even apply for a job. 
 
-![BobaMenu](link-to-image)
+![BobaTeas](screenshots/bobateas.png)
+![Snacks](screenshots/snacks.png)
+![Contact](screenshots/contact.png)
+![Gallery](screenshots/gallery.png)
+![Career](screenshots/career.png)
